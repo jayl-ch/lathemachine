@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About This Instructional Guide
+title: About This Instructional Material
 permalink: /pages/about.html
 ---
 
@@ -59,7 +59,7 @@ The evolution of lathe technology:
 - Modern era advances
 - Future trends
 
-## How to Use This Guide
+## How to Use This Instructional Material
 
 ### For Learning
 1. Start with [Components]({{ '/pages/components.html' | relative_url }}) to understand the machine
@@ -87,7 +87,7 @@ The evolution of lathe technology:
 
 ## Important Disclaimer
 
-This guide is for educational purposes only. Always follow your facility's safety procedures and the manufacturer's instructions. Never operate machinery without proper training and authorization from a qualified instructor.
+This instructional material is for educational purposes only. Always follow your facility's safety procedures and the manufacturer's instructions. Never operate machinery without proper training and authorization from a qualified instructor.
 
 ## Getting Started
 
