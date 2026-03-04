@@ -16,7 +16,6 @@ Lathe machines are essential tools, but they are designed in many different ways
 
 {{ type.content | strip_html | truncatewords: 30 }}
 
-[Learn More]({{ type.url | relative_url }})
 </div>
 {% endfor %}
 </div>
@@ -29,13 +28,13 @@ Lathe machines are essential tools, but they are designed in many different ways
 
 **Instructions:** Match the manufacturing scenario (1-5) with the most appropriate lathe type (A-E) by writing the corresponding letter.
 
-| Scenario | Lathe Type |
-|----------|-----------|
-| 1. Mass production of identical, small, complex medical device components that are long and thin. | A. Engine Lathe (Center Lathe) |
-| 2. Boring and facing a massive, heavy turbine disk for a power generation plant. | B. Tool Room Lathe  |
-| 3. A university machine shop needs a standard, versatile machine for general turning practice on single-part jobs. | C. Automatic Lathe |
-| 4. Production of a large batch of identical fasteners, requiring automated, unsupervised tool changes and material feed. | D. Vertical Lathe (VTL) |
-| 5. A tool and die shop needs to create a highly accurate gauge, demanding the greatest possible control and precision settings. | E. CNC Swiss-Type Lathe |
+| Scenario                                                                                                                        | Lathe Type                     |
+| ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| 1. Mass production of identical, small, complex medical device components that are long and thin.                               | A. Engine Lathe (Center Lathe) |
+| 2. Boring and facing a massive, heavy turbine disk for a power generation plant.                                                | B. Tool Room Lathe             |
+| 3. A university machine shop needs a standard, versatile machine for general turning practice on single-part jobs.              | C. Automatic Lathe             |
+| 4. Production of a large batch of identical fasteners, requiring automated, unsupervised tool changes and material feed.        | D. Vertical Lathe (VTL)        |
+| 5. A tool and die shop needs to create a highly accurate gauge, demanding the greatest possible control and precision settings. | E. CNC Swiss-Type Lathe        |
 
 ### Answer Key
 
@@ -50,3 +49,4 @@ Lathe machines are essential tools, but they are designed in many different ways
 5. B
 </div>
 </div>
+
