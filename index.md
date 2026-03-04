@@ -19,6 +19,8 @@ This comprehensive resource provides everything you need to understand, operate,
   </model-viewer>
 </div>
 
+> **Disclaimer:** The STEP file-based 3D model shown above depicts the **Hans Schreiner Super 1100** lathe machine model.
+
 ## What You'll Find Here
 
 Learn about the essential components, master 13 common operations, explore different machine types, and understand critical safety practices.
