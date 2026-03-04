@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     speedButton.addEventListener('click', () => {
       const currentIndex = speedSteps.indexOf(video.playbackRate);
       const nextIndex = currentIndex === -1 || currentIndex === speedSteps.length - 1
-        ? 1
+        ? 0
         : currentIndex + 1;
       const nextSpeed = speedSteps[nextIndex];
 
