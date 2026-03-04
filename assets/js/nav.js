@@ -18,14 +18,27 @@ function normalizePath(pathname) {
 }
 
 function setActiveNavLink() {
+  const tabs = [
+    "history",
+    "safety",
+    "components",
+    "types",
+    "operations",
+    "accessories",
+    "authors",
+    "about",
+  ];
   const currentPath = normalizePath(window.location.pathname);
+  let currPath = tabs.find((item) => currentPath.includes(item));
   const navLinks = document.querySelectorAll(".nav-link");
 
   navLinks.forEach((link) => {
-    const linkPath = normalizePath(new URL(link.href, window.location.origin).pathname);
-    const isHomeAlias = currentPath === "/index.html" && linkPath === "/";
+    const linkPath = normalizePath(
+      new URL(link.href, window.location.origin).pathname,
+    );
+    const homeAlias = currPath ? "" : "/lathemachine";
 
-    if (linkPath === currentPath || isHomeAlias) {
+    if (linkPath.includes(currPath) || linkPath === homeAlias) {
       link.classList.add("active");
       link.setAttribute("aria-current", "page");
     } else {
