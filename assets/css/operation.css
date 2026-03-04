@@ -62,3 +62,23 @@
 .op-card:has(.advanced):hover {
   border-color: red;
 }
+
+.video-speed-controls {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.video-speed-btn {
+  background: #0f4c81;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.video-speed-btn:hover {
+  background: #0b3a62;
+}
