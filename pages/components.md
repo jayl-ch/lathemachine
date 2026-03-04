@@ -18,8 +18,6 @@ Understanding the major parts of the lathe machine is crucial for anyone looking
 
 {{ comp.function }}
 
-[Learn More]({{ comp.url | relative_url }})
-
 </div>
 {% endfor %}
 </div>
@@ -59,21 +57,21 @@ Understanding the major parts of the lathe machine is crucial for anyone looking
 
 **Instructions:** Choose the best answer for the multiple-choice questions or complete the sentence with the most appropriate component.
 
-1.	Which set of components is directly responsible for carrying and precisely positioning the cutting tool for both longitudinal and cross-feed movements? 
-    
-    A. Headstock, Spindle, and Chuck 
-    
-    B. Bed, Lead Screw, and Feed Rod 
-    
-    C. Carriage, Cross Slide, and Compound Rest
-    
-    D. Tailstock, Tool Post, and Apron
+1. Which set of components is directly responsible for carrying and precisely positioning the cutting tool for both longitudinal and cross-feed movements?
 
-2.	The ______ is primarily used for precise threading operations , while the adjacent _______  is used for automatic movement of the carriage for non-threading cuts.
+   A. Headstock, Spindle, and Chuck
 
-3.	The main purpose of the ______ is to support the far end of long workpieces to prevent bending , but it also holds tools like drills for making holes.
+   B. Bed, Lead Screw, and Feed Rod
 
-4.	The _______ is the component that must be supremely rigid to prevent shaking that could ruin the work's accuracy.
+   C. Carriage, Cross Slide, and Compound Rest
+
+   D. Tailstock, Tool Post, and Apron
+
+2. The **\_\_** is primarily used for precise threading operations , while the adjacent **\_\_\_** is used for automatic movement of the carriage for non-threading cuts.
+
+3. The main purpose of the **\_\_** is to support the far end of long workpieces to prevent bending , but it also holds tools like drills for making holes.
+
+4. The **\_\_\_** is the component that must be supremely rigid to prevent shaking that could ruin the work's accuracy.
 
 ### Answer Key
 
@@ -87,3 +85,4 @@ Understanding the major parts of the lathe machine is crucial for anyone looking
 4. Bed
 </div>
 </div>
+
