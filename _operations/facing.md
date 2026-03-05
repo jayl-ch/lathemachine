@@ -20,14 +20,15 @@ related_components:
 Facing involves cutting the end of the workpiece to produce a flat surface. It's often the first operation performed on a lathe to create a clean, flat starting point for further machining.
 
 ## Video Guide
-⚠️Disclaimer: This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
+**Disclaimer:** This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
 <div class="media-container video-container">
   <video width="100%" height="auto" controls class="responsive-media">
     <source src="{{ page.video | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
-
 
 ## Purpose of Facing
 
@@ -52,3 +53,4 @@ Facing involves cutting the end of the workpiece to produce a flat surface. It's
 - Feed the tool steadily from the edge toward the center
 - Multiple light passes produce better results than one heavy pass
 - Check flatness with a straightedge after completion
+

@@ -20,7 +20,9 @@ related_components:
 Reaming is the process of finishing and sizing a hole to a precise diameter. A reamer tool is slowly fed into a pre-drilled hole while the workpiece rotates.
 
 ## Video Guide
-⚠️Disclaimer: This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
+**Disclaimer:** This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
 <div class="media-container video-container">
   <video width="100%" height="auto" controls class="responsive-media">
     <source src="{{ page.video | relative_url }}" type="video/mp4">
@@ -53,3 +55,4 @@ Reaming is the process of finishing and sizing a hole to a precise diameter. A r
 - Use proper cutting fluid
 - Remove the reamer carefully
 - Check the final hole size with precision instruments
+

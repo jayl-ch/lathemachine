@@ -20,7 +20,9 @@ related_components:
 Knurling is the process of creating a regular, cross-patterned texture on the surface of a workpiece. This is typically done to provide a better grip on the finished part.
 
 ## Video Guide
-⚠️Disclaimer: This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
+**Disclaimer:** This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
 <div class="media-container video-container">
   <video width="100%" height="auto" controls class="responsive-media">
     <source src="{{ page.video | relative_url }}" type="video/mp4">
@@ -53,3 +55,4 @@ Knurling is the process of creating a regular, cross-patterned texture on the su
 - The pattern should be uniform and consistent
 - Avoid excessive pressure that could damage the tool
 - Clean the knurling tool frequently
+

@@ -20,7 +20,9 @@ related_components:
 Parting, also known as cutting off, is the process of cutting a piece off a workpiece while it is rotating on a lathe. This operation uses a narrow, blade-like cutting tool positioned perpendicular to the workpiece.
 
 ## Video Guide
-⚠️Disclaimer: This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
+**Disclaimer:** This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
 <div class="media-container video-container">
   <video width="100%" height="auto" controls class="responsive-media">
     <source src="{{ page.video | relative_url }}" type="video/mp4">
@@ -53,3 +55,4 @@ Parting, also known as cutting off, is the process of cutting a piece off a work
 - Be aware of the cut-off piece becoming free
 - Ensure adequate clearance for the falling part
 - Never reach toward the parting tool
+

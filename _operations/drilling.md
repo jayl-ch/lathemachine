@@ -20,7 +20,9 @@ related_components:
 Drilling on a lathe involves creating a round hole in the workpiece, typically using a drill bit secured in the tailstock. This operation allows for precise hole creation in terms of diameter and depth.
 
 ## Video Guide
-⚠️Disclaimer: This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
+**Disclaimer:** This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
 <div class="media-container video-container">
   <video width="100%" height="auto" controls class="responsive-media">
     <source src="{{ page.video | relative_url }}" type="video/mp4">
@@ -52,3 +54,4 @@ Drilling on a lathe involves creating a round hole in the workpiece, typically u
 - Allow the drill to exit completely before retracting
 - Clear chips frequently for deep holes
 - Ensure proper centering before starting
+
