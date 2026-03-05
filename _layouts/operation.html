@@ -2,47 +2,77 @@
 layout: default
 ---
 
-<article class="post operation">
+<!-- Sticky Breadcrumb -->
+<div class="breadcrumb" 
+     style="width: 10%;          /* responsive width */
+            max-width: 600px;    /* optional max width */
+            background-color: #263238;
+            border-radius: 25px; 
+            padding: 8px 16px; 
+            margin: 5px auto 0 auto; /* centers horizontally */
+            border-bottom: 2px solid #000000;
+            text-align: center;">
+  <a href="{{ '/pages/operations.html' | relative_url }}">Operations</a> /
+  <span style="color: white;">{{ page.title }}</span>
+</div>
+
+<!-- Sticky Back Button -->
+<nav class="operation-nav" 
+     style="position: sticky; 
+            top: 100px; 
+            padding: 8px 16px; 
+            z-index: 101;
+            background-color: #263238;
+            width: 12%;          /* responsive width */
+            max-width: 300px;    /* optional max width */
+            border-radius: 25px;
+            margin-left: 10px;
+            text-align: center;">
+  <a href="{{ '/pages/operations.html' | relative_url }}" class="back-link" title="Back to All Operations"
+     style="color: white;">
+    ← Back to All Operations
+  </a>
+</nav>
+
+<!-- Main Article Content -->
+<article class="post operation" style="margin-top: 16px;">
   <header class="post-header">
-    <div class="breadcrumb">
-      <a href="{{ '/pages/operations.html' | relative_url }}">Operations</a> / 
-      <span>{{ page.title }}</span>
-    </div>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.difficulty %}
-      <p class="difficulty">
-        Difficulty: <span class="level-{{ page.difficulty }}">{{ page.difficulty | capitalize }}</span>
-      </p>
+    <p class="difficulty">
+      Difficulty:
+      <span class="level-{{ page.difficulty }}">
+        {{ page.difficulty | capitalize }}
+      </span>
+    </p>
     {% endif %}
   </header>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+  <div class="post-content">{{ content }}</div>
 
   {% if page.tools %}
-    <section class="tools-required">
-      <h2>Tools & Equipment Required</h2>
-      <ul>
-        {% for tool in page.tools %}
-          <li>{{ tool }}</li>
-        {% endfor %}
-      </ul>
-    </section>
+  <section class="tools-required">
+    <h2>Tools & Equipment Required</h2>
+    <ul>
+      {% for tool in page.tools %}
+      <li>{{ tool }}</li>
+      {% endfor %}
+    </ul>
+  </section>
   {% endif %}
 
   {% if page.related_components %}
-    <section class="related-items">
-      <h2>Related Components</h2>
-      <ul>
-        {% for comp in page.related_components %}
-          <li><a href="{{ '/components/' | append: comp | slugify | append: '/' | relative_url }}">{{ comp }}</a></li>
-        {% endfor %}
-      </ul>
-    </section>
+  <section class="related-items">
+    <h2>Related Components</h2>
+    <ul>
+      {% for comp in page.related_components %}
+      <li>
+        <a href="{{ '/components/' | append: comp | slugify | append: '/' | relative_url }}">
+          {{ comp }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
   {% endif %}
 </article>
-
-<nav class="operation-nav">
-  <a href="{{ '/pages/operations.html' | relative_url }}" class="back-link">← Back to All Operations</a>
-</nav>
