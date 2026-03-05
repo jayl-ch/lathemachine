@@ -10,15 +10,17 @@ body {
 .operation-nav,
 .post.component,
 .post.history,
-.component-nav {
-    padding-inline: 1.5rem;
-    max-width: 1200px;
-    margin-inline: auto;
+.history-nav,
+.component-nav,
+.post.type,
+.type-nav {
+  padding-inline: 1.5rem;
+  max-width: 1200px;
+  margin-inline: auto;
 }
 
-.post.operation,
-.post.component,
-.post.history {
-  padding-top: 2rem;
-}
-
+/* .post.operation, */
+/* .post.component, */
+/* .post.history { */
+/*   padding-top: 2rem; */
+/* } */

@@ -1,11 +1,11 @@
 ---
 layout: home
-title: Lathe Machine Instructional Guide
+title: Lathe Machine Instructional Material
 permalink: /
 animation: /assets/models/model.glb
 ---
 <div class="content-wrapper">
-# Welcome to the Lathe Machine Instructional Guide
+# Welcome to the Lathe Machine Instructional Material
 
 This comprehensive resource provides everything you need to understand, operate, and maintain lathe machines safely and effectively.
 
@@ -18,6 +18,8 @@ This comprehensive resource provides everything you need to understand, operate,
     style="width: 100%; height: 500px;">
   </model-viewer>
 </div>
+
+> **Disclaimer:** The STEP file-based 3D model shown above depicts the **Hans Schreiner Super 1100** lathe machine model.
 
 ## What You'll Find Here
 
@@ -43,7 +45,7 @@ Choose your path:
 | [Safety]({{ '/pages/safety.html' | relative_url }}) | Safety protocols and best practices |
 | [Accessories]({{ '/pages/accessories.html' | relative_url }}) | Tools and attachments for lathe use |
 | [History]({{ '/pages/history.html' | relative_url }}) | Evolution of lathe technology |
-| [About]({{ '/pages/about.html' | relative_url }}) | How to use this guide |
+| [About]({{ '/pages/about.html' | relative_url }}) | How to use this instructional material |
 
 **Start with Safety, then choose your learning path!**
 </div>

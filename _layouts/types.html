@@ -5,17 +5,18 @@ layout: default
 <article class="post type">
   <header class="post-header">
     <div class="breadcrumb">
-      <a href="{{ '/pages/types.html' | relative_url }}">Machine Types</a> / 
+      <a href="{{ '/pages/types.html' | relative_url }}">Machine Types</a> /
       <span>{{ page.title }}</span>
     </div>
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+  <div class="post-content">{{ content }}</div>
 </article>
 
 <nav class="type-nav">
-  <a href="{{ '/pages/types.html' | relative_url }}" class="back-link">← Back to All Types</a>
+  <a href="{{ '/pages/types.html' | relative_url }}" class="back-link"
+    >← Back to All Types</a
+  >
 </nav>
+

@@ -20,7 +20,9 @@ related_components:
 Boring involves enlarging a hole that has already been drilled or cast. The process is used to achieve greater accuracy in diameter and to attain a smooth internal finish.
 
 ## Video Guide
-⚠️Disclaimer: This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
+**Disclaimer:** This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
 <div class="media-container video-container">
   <video width="100%" height="auto" controls class="responsive-media">
     <source src="{{ page.video | relative_url }}" type="video/mp4">
@@ -53,3 +55,4 @@ Boring involves enlarging a hole that has already been drilled or cast. The proc
 - Monitor for vibration, especially with deep holes
 - Use appropriate cutting speeds and feed rates
 - Check diameter frequently with calipers
+
