@@ -89,7 +89,8 @@
   width: fit-content;
   border-radius: 25px;
   padding: 0.5125rem 1rem;
-  margin: 5px auto 0 auto; /* centers horizontally */
+  margin-block: 5px 0;
+  margin-inline: auto; /* centers horizontally */
   border-bottom: 2px solid #000000;
   text-align: center;
   color: white;
@@ -109,4 +110,14 @@
   border-radius: 25px;
   text-align: center;
   font-size: clamp(0.8125rem, 2vw, 1rem);
+}
+
+@media (width < 600px) {
+  .breadcrumb.operation {
+    margin-inline: auto 1rem;
+    width: fit-content;
+  }
+  .operation-nav {
+    margin-block-start: 0;
+  }
 }
