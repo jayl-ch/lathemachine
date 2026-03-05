@@ -25,7 +25,7 @@ function setActiveNavLink() {
     "types",
     "operations",
     "accessories",
-    "authors",
+    "author",
     "about",
   ];
   const currentPath = normalizePath(window.location.pathname);
