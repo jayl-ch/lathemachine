@@ -20,6 +20,7 @@ related_components:
 Chamfering involves cutting a bevel or angled edge on the workpiece. On a lathe, this is achieved by positioning the cutting tool at an angle to the workpiece's edge.
 
 ## Video Guide
+⚠️Disclaimer: This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
 <div class="media-container video-container">
   <video width="100%" height="auto" controls class="responsive-media">
     <source src="{{ page.video | relative_url }}" type="video/mp4">
