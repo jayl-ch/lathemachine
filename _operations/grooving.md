@@ -20,7 +20,9 @@ related_components:
 Grooving involves creating narrow grooves or channels on a workpiece. A specific grooving tool is carefully fed into the workpiece while it rotates on the lathe.
 
 ## Video Guide
-⚠️Disclaimer: This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
+**Disclaimer:** This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
+
 <div class="media-container video-container">
   <video width="100%" height="auto" controls class="responsive-media">
     <source src="{{ page.video | relative_url }}" type="video/mp4">
@@ -52,3 +54,4 @@ Grooving involves creating narrow grooves or channels on a workpiece. A specific
 - Multiple passes may be needed for deep grooves
 - Use proper cutting fluid for better results
 - Measure groove dimensions carefully
+
