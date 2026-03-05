@@ -11,9 +11,9 @@ body {
 .post.component,
 .post.history,
 .component-nav {
-    padding-inline: 1.5rem;
-    max-width: 1200px;
-    margin-inline: auto;
+  padding-inline: 1.5rem;
+  max-width: 1200px;
+  margin-inline: auto;
 }
 
 .post.operation,
@@ -21,4 +21,3 @@ body {
 .post.history {
   padding-top: 2rem;
 }
-

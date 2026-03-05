@@ -3,39 +3,25 @@ layout: default
 ---
 
 <!-- Sticky Breadcrumb -->
-<div class="breadcrumb" 
-     style="width: 10%;          /* responsive width */
-            max-width: 600px;    /* optional max width */
-            background-color: #263238;
-            border-radius: 25px; 
-            padding: 8px 16px; 
-            margin: 5px auto 0 auto; /* centers horizontally */
-            border-bottom: 2px solid #000000;
-            text-align: center;">
+<div class="breadcrumb">
   <a href="{{ '/pages/operations.html' | relative_url }}">Operations</a> /
-  <span style="color: white;">{{ page.title }}</span>
+  <span style="color: white">{{ page.title }}</span>
 </div>
 
 <!-- Sticky Back Button -->
-<nav class="operation-nav" 
-     style="position: sticky; 
-            top: 100px; 
-            padding: 8px 16px; 
-            z-index: 101;
-            background-color: #263238;
-            width: 12%;          /* responsive width */
-            max-width: 300px;    /* optional max width */
-            border-radius: 25px;
-            margin-left: 10px;
-            text-align: center;">
-  <a href="{{ '/pages/operations.html' | relative_url }}" class="back-link" title="Back to All Operations"
-     style="color: white;">
+<nav class="operation-nav">
+  <a
+    href="{{ '/pages/operations.html' | relative_url }}"
+    class="back-link operation"
+    title="Back to All Operations"
+    style="color: white"
+  >
     ← Back to All Operations
   </a>
 </nav>
 
 <!-- Main Article Content -->
-<article class="post operation" style="margin-top: 16px;">
+<article class="post operation" style="margin-top: 16px">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.difficulty %}
@@ -59,15 +45,15 @@ layout: default
       {% endfor %}
     </ul>
   </section>
-  {% endif %}
-
-  {% if page.related_components %}
+  {% endif %} {% if page.related_components %}
   <section class="related-items">
     <h2>Related Components</h2>
     <ul>
       {% for comp in page.related_components %}
       <li>
-        <a href="{{ '/components/' | append: comp | slugify | append: '/' | relative_url }}">
+        <a
+          href="{{ '/components/' | append: comp | slugify | append: '/' | relative_url }}"
+        >
           {{ comp }}
         </a>
       </li>
@@ -76,3 +62,4 @@ layout: default
   </section>
   {% endif %}
 </article>
+
