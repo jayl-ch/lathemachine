@@ -12,29 +12,38 @@ A lathe machine is incredibly versatile and can perform many different operation
 
 {% assign sorted_ops = site.operations | sort: "order" %}
 {% for op in sorted_ops %}
-
-<div class="op-card">
-### [{{ op.title }}]({{ op.url | relative_url }})
-**Difficulty:** <span class="difficulty {{ op.difficulty | downcase }}">{{ op.difficulty | capitalize }}</span>
+<div class="op-card" 
+     onclick="window.location='{{ op.url | relative_url }}';" 
+     title="Click to view {{ op.title }}"
+     style="cursor: pointer;">
+  <h3>{{ op.title }}</h3>
+  <p>
+    <strong>Difficulty:</strong>
+    <span class="difficulty {{ op.difficulty | downcase }}">
+      {{ op.difficulty | capitalize }}
+    </span>
+  </p>
 </div>
-
 {% endfor %}
 
 </div>
 ## Quick Overview
 
 ### Cutting Operations
+
 - **Turning**: Removing outer material to create cylindrical shapes
 - **Facing**: Cutting the end of workpiece for flat surfaces
 - **Boring**: Enlarging existing holes with precision
 - **Parting**: Cutting pieces off from the main workpiece
 
 ### Threading & Texture
+
 - **Threading**: Creating precise screw threads
 - **Knurling**: Creating textured grip surfaces
 - **Grooving**: Creating channels and grooves
 
 ### Specialized Operations
+
 - **Drilling**: Creating holes in the workpiece
 - **Taper Turning**: Creating conical shapes
 - **Chamfering**: Cutting beveled edges
@@ -45,6 +54,7 @@ A lathe machine is incredibly versatile and can perform many different operation
 ## Operation Selection Guide
 
 The operation you choose depends on:
+
 - **Workpiece Material**: Metal, wood, or plastic
 - **Desired Shape**: Cylindrical, conical, or complex profile
 - **Accuracy Required**: General or precision
@@ -57,107 +67,107 @@ Part V: Common Operations
 
 **A. Instructions:** Choose the best answer that describes the required operation, tool, or outcome for the given scenario.
 
-1.	A machine shop needs to improve the surface quality and appearance of a turned brass spindle by smoothing out minor imperfections without removing significant material. Which operation is best suited for this final stage? 
-    
-    A. Boring
-    
-    B. Reaming
-    
-    C. Knurling
-    
-    D. Polishing 
+1. A machine shop needs to improve the surface quality and appearance of a turned brass spindle by smoothing out minor imperfections without removing significant material. Which operation is best suited for this final stage?
 
-2.	A component requires a hole with a diameter of 10.00 mm (+ 0.01 mm) and an exceptionally smooth internal finish to accommodate a high-precision pin. A 9.80 mm hole has already been drilled. Which operation is required to achieve the final, precise size and tolerance? 
-    
-    A. Drilling
-    
-    B. Turning
-    
-    C. Reaming 
-    
-    D. Grooving
+   A. Boring
 
-3.	An operator has completed machining a small part on a long piece of bar stock. The next step is to cleanly sever the finished part from the remaining stock. What specific operation and tool profile must be used? 
-   
-    A. Grooving, using a standard turning tool.
-    
-    B. Facing, using a wide face tool.
-    
-    C. Parting (Cutting Off), using a narrow, blade-like cutting tool. 
-    
-    D. Chamfering, using an angled cutting tool.
+   B. Reaming
 
-4.	A set of aluminum knobs needs a non-slip, textured surface to improve manual grip. Which process applies a regular, cross-patterned texture by pressing toothed rollers against the rotating workpiece? 
-    
-    A. Taper Turning
-    
-    B. Grooving
-   
-    C. Facing
-    
-    D. Knurling 
+   C. Knurling
 
-5.	An operator is setting up to cut 13 threads per inch (TPI) on an external shaft. Which key machine component must be correctly engaged to ensure the cutting tool moves at the exact predetermined feed rate to match the required pitch? 
-    
-    A. The Compound Rest
-    
-    B. The Feed Rod
-    
-    C. The Lead Screw 
-    
-    D. The Tailstock
-    
+   D. Polishing
+
+2. A component requires a hole with a diameter of 10.00 mm (+ 0.01 mm) and an exceptionally smooth internal finish to accommodate a high-precision pin. A 9.80 mm hole has already been drilled. Which operation is required to achieve the final, precise size and tolerance?
+
+   A. Drilling
+
+   B. Turning
+
+   C. Reaming
+
+   D. Grooving
+
+3. An operator has completed machining a small part on a long piece of bar stock. The next step is to cleanly sever the finished part from the remaining stock. What specific operation and tool profile must be used?
+
+   A. Grooving, using a standard turning tool.
+
+   B. Facing, using a wide face tool.
+
+   C. Parting (Cutting Off), using a narrow, blade-like cutting tool.
+
+   D. Chamfering, using an angled cutting tool.
+
+4. A set of aluminum knobs needs a non-slip, textured surface to improve manual grip. Which process applies a regular, cross-patterned texture by pressing toothed rollers against the rotating workpiece?
+
+   A. Taper Turning
+
+   B. Grooving
+
+   C. Facing
+
+   D. Knurling
+
+5. An operator is setting up to cut 13 threads per inch (TPI) on an external shaft. Which key machine component must be correctly engaged to ensure the cutting tool moves at the exact predetermined feed rate to match the required pitch?
+
+   A. The Compound Rest
+
+   B. The Feed Rod
+
+   C. The Lead Screw
+
+   D. The Tailstock
+
 **B. Instructions:** Answer the following questions with specific technical details.
 
-1.	Before starting the lathe, which safety practice is emphasized?
+1. Before starting the lathe, which safety practice is emphasized?
 
-    A. Adjust spindle speed immediately
+   A. Adjust spindle speed immediately
 
-    B. Remove the chuck key
+   B. Remove the chuck key
 
-    C. Install cutting tools first
+   C. Install cutting tools first
 
-    D. Increase feed rate
+   D. Increase feed rate
 
-2.	The safety section warns against mounting cracked or defective materials because:
+2. The safety section warns against mounting cracked or defective materials because:
 
-    A. It dulls the cutting tool
+   A. It dulls the cutting tool
 
-    B. It may break and cause accidents
+   B. It may break and cause accidents
 
-    C. It slows the operation
+   C. It slows the operation
 
-    D. It affects machine accuracy
+   D. It affects machine accuracy
 
-3.	Boring is performed on a lathe to:
+3. Boring is performed on a lathe to:
 
-    A. Reduce external diameter
+   A. Reduce external diameter
 
-    B. Enlarge an existing hole
+   B. Enlarge an existing hole
 
-    C. Cut threads
+   C. Cut threads
 
-    D. Face the workpiece
+   D. Face the workpiece
 
-4.	It is primarily used to support hollow cylindrical workpieces such as pipes?
+4. It is primarily used to support hollow cylindrical workpieces such as pipes?
 
-    A. Half centre
+   A. Half centre
 
-    B. Ball centre
+   B. Ball centre
 
-    C. Pipe centre
+   C. Pipe centre
 
-    D. Frictionless centre
+   D. Frictionless centre
 
-5.	Which type of chuck has jaws that move together to securely grip round or hexagonal workpieces?
+5. Which type of chuck has jaws that move together to securely grip round or hexagonal workpieces?
 
-    A. Four-jaw independent chuck
+   A. Four-jaw independent chuck
 
-    B. Combination chuck
+   B. Combination chuck
 
-    C. Three-jaw universal chuck
+   C. Three-jaw universal chuck
 
-    D. Face plate
+   D. Face plate
 
 ### Answer Key
 

@@ -21,12 +21,15 @@ related_components:
 Turning is the fundamental process of removing material from the outer diameter of a workpiece to produce a cylindrical shape. This is the most common operation performed on a lathe.
 
 ## Video Guide
+⚠️Disclaimer: This content presents a 3D simulation, not real-time operation. It is intended solely as a visual aid to help learners conceptualize the operational process.
 <div class="media-container video-container">
   <video width="100%" height="auto" controls class="responsive-media">
     <source src="{{ page.video | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
+
+
 
 ## Types of Turning
 
