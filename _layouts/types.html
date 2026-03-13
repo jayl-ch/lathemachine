@@ -2,12 +2,13 @@
 layout: default
 ---
 
+<div class="breadcrumb">
+  <a href="{{ '/pages/types.html' | relative_url }}">Machine Types</a> /
+  <span>{{ page.title }}</span>
+</div>
+
 <article class="post type">
   <header class="post-header">
-    <div class="breadcrumb">
-      <a href="{{ '/pages/types.html' | relative_url }}">Machine Types</a> /
-      <span>{{ page.title }}</span>
-    </div>
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
@@ -19,4 +20,3 @@ layout: default
     >← Back to All Types</a
   >
 </nav>
-

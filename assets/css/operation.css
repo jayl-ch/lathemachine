@@ -84,19 +84,6 @@
   background: #0b3a62;
 }
 
-.breadcrumb {
-  background-color: #263238;
-  width: fit-content;
-  border-radius: 25px;
-  padding: 0.5125rem 1rem;
-  margin-block: 5px 0;
-  margin-inline: auto; /* centers horizontally */
-  border-bottom: 2px solid #000000;
-  text-align: center;
-  color: white;
-  font-size: clamp(0.8125rem, 2vw, 1rem);
-}
-
 .operation-nav {
   position: sticky;
   top: 100px;
@@ -113,10 +100,10 @@
 }
 
 @media (width < 600px) {
-  .breadcrumb.operation {
-    margin-inline: auto 1rem;
-    width: fit-content;
-  }
+  /* .breadcrumb.operation { */
+  /*   margin-inline: auto 1rem; */
+  /*   width: fit-content; */
+  /* } */
   .operation-nav {
     margin-block-start: 0;
   }
