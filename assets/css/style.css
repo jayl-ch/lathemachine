@@ -19,6 +19,27 @@ body {
   margin-inline: auto;
 }
 
+.breadcrumb {
+  position: sticky;
+  top: 4rem;
+  background-color: #263238;
+  width: fit-content;
+  border-radius: 25px;
+  padding: 0.5125rem 1rem;
+  margin-block: 5px 0;
+  margin-inline: auto; /* centers horizontally */
+  border-bottom: 2px solid #000000;
+  text-align: center;
+  color: white;
+  font-size: clamp(0.8125rem, 2vw, 1rem);
+  z-index: 100;
+}
+
+@media (width < 992px) {
+  .breadcrumb {
+    top: 5rem;
+  }
+}
 /* .post.operation, */
 /* .post.component, */
 /* .post.history { */

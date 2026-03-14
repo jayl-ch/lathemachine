@@ -16,7 +16,7 @@ layout: default
     title="Back to All Operations"
     style="color: white"
   >
-    ← Back to All Operations
+    ← Operations
   </a>
 </nav>
 
@@ -50,9 +50,10 @@ layout: default
     <h2>Related Components</h2>
     <ul>
       {% for comp in page.related_components %}
+      {% assign slug = comp | slugify %}
       <li>
         <a
-          href="{{ '/components/' | append: comp | slugify | append: '/' | relative_url }}"
+          href="{{ '/components/' | append: slug | append: '/' | relative_url }}"
         >
           {{ comp }}
         </a>
