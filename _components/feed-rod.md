@@ -28,4 +28,5 @@ The feed rod is a rod that runs next to the lead screw. Its job is to move the c
 
 ## Key Features
 
--
+Provides a controlled and consistent automatic movement of the carriage during regular cutting operations for smoother and more accurate machining.
+
