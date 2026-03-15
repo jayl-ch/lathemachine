@@ -6,10 +6,14 @@ animation: /assets/models/components/FEED ROD.glb
 image_caption: "Feed rod assembly for automatic carriage feed"
 function: "Automatically moves the carriage during non-threading cuts"
 related_operations:
-  - Turning
-  - Facing
-  - Boring
-  - Longitudinal cutting operations
+  - title: Turning
+    url: /operations/turning/
+  - title: Facing
+    url: /operations/facing/
+  - title: Boring
+    url: /operations/boring/
+  - title: Longitudinal cutting operations
+    url: /operations/longitudinal-cutting/
 ---
 
 ## Overview
@@ -29,4 +33,3 @@ The feed rod is a rod that runs next to the lead screw. Its job is to move the c
 ## Key Features
 
 Provides a controlled and consistent automatic movement of the carriage during regular cutting operations for smoother and more accurate machining.
-

@@ -6,9 +6,12 @@ animation: /assets/models/components/LEAD SCREW.glb
 image_caption: "Lead screw assembly showing thread pitch"
 function: "Precisely controls tool movement for creating threads and controlled feeds"
 related_operations:
-  - Threading
-  - Longitudinal feeding
-  - Automatic feed operations
+  - title: Threading
+    url: /operations/threading/
+  - title: Longitudinal feeding
+    url: /operations/longitudinal-feeding/
+  - title: Automatic feed operations
+    url: /operations/automatic-feed/
 ---
 
 ## Overview
@@ -40,17 +43,20 @@ Runs horizontally along the entire length of the bed, typically underneath the c
 ## Function Details
 
 ### Primary Functions
+
 - Control carriage movement for threading
 - Provide synchronized feed
 - Enable automatic feeding
 - Maintain precise pitch for threads
 
 ### Lead Screw Pitch
+
 - Determines thread pitch that can be created
 - Common pitches: 8 TPI, 10 TPI, 12 TPI
 - Can be changed with gearing for different pitches
 
 ### Threading Process
+
 1. Engage lead screw clutch
 2. Set spindle speed
 3. Position tool at thread start
@@ -71,3 +77,4 @@ Runs horizontally along the entire length of the bed, typically underneath the c
 - Never use lead screw for manual carriage feed during threading
 - Always disengage before reversing spindle
 - Keep hands clear during threading
+

@@ -31,8 +31,7 @@ layout: default
       <h2>Used In Operations</h2>
       <ul>
         {% for op in page.related_operations %}
-        {% assign slug = op | slugify %}
-          <li><a href="{{ '/operations/' | append: slug | append: '/' | relative_url }}">{{ op }}</a></li>
+          <li><a href="{{ op.url | relative_url }}">{{ op.title }}</a></li>
         {% endfor %}
       </ul>
     </section>

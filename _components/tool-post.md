@@ -6,10 +6,14 @@ animation: /assets/models/components/TOOL POST.glb
 image_caption: "Tool post with cutting tool secured at center height"
 function: "Holds and positions the cutting tool at the proper height and angle"
 related_operations:
-  - Turning
-  - Facing
-  - Boring
-  - Threading
+  - title: Turning
+    url: /operations/turning/
+  - title: Facing
+    url: /operations/facing/
+  - title: Boring
+    url: /operations/boring/
+  - title: Threading
+    url: /operations/threading/
 ---
 
 ## Overview
@@ -41,17 +45,20 @@ Positioned on top of the cross slide, which is part of the carriage assembly.
 ## Function Details
 
 ### Primary Functions
+
 - Hold cutting tools securely
 - Position tools at precise height
 - Allow angle adjustment for specialized cuts
 - Prevent vibration and tool chatter
 
 ### Tool Post Types
+
 - **Solid Post**: Permanent mounting, adjustable holder
 - **Turret Type**: Multiple tool positions
 - **Quick-Change**: Rapid tool replacement
 
 ### Center Height Setting
+
 - Tool tip must be at the exact center height of the workpiece
 - Critical for accurate and efficient cutting
 - Usually set using a center height gauge
@@ -71,3 +78,4 @@ Positioned on top of the cross slide, which is part of the carriage assembly.
 - Check for worn adjustment mechanisms
 - Verify secure holding ability
 - Ensure smooth height adjustment
+

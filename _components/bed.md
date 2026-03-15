@@ -6,7 +6,8 @@ animation: /assets/models/components/BED.glb
 image_caption: "Lathe bed 3D model"
 function: "Provides the rigid, stable base that supports all major components"
 related_operations:
-  - All lathe operations
+  - title: All lathe operations
+    url: /pages/operations.html
 ---
 
 ## Overview
@@ -37,12 +38,14 @@ Runs horizontally along the entire length of the lathe from headstock to tailsto
 ## Function Details
 
 ### Primary Functions
+
 - Support all major components
 - Guide the carriage movement
 - Maintain precise alignment
 - Prevent vibration and deflection
 
 ### Construction
+
 - Typically made of cast iron for stability and vibration damping
 - V-shaped and flat ways ensure accurate tool positioning
 - Precision grinding ensures flatness and accuracy
@@ -54,3 +57,4 @@ Runs horizontally along the entire length of the lathe from headstock to tailsto
 - Check for straightness and alignment
 - Inspect for cracks or damage
 - Ensure it sits level on the machine base
+

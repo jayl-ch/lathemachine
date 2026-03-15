@@ -6,10 +6,14 @@ animation: /assets/models/components/TAILSTOCK.glb
 image_caption: "Tailstock assembly with quill and center"
 function: "Supports the far end of long workpieces and holds cutting tools like drills"
 related_operations:
-  - Turning
-  - Drilling
-  - Boring
-  - Reaming
+  - title: Turning
+    url: /operations/turning/
+  - title: Drilling
+    url: /operations/drilling/
+  - title: Boring
+    url: /operations/boring/
+  - title: Reaming
+    url: /operations/reaming/
 ---
 
 ## Overview
@@ -40,12 +44,14 @@ Positioned at the right end of the lathe, it provides support for the workpiece 
 ## Function Details
 
 ### Primary Functions
+
 - Support long workpieces to prevent deflection
 - Hold centers for workpiece rotation
 - Hold drill bits and reamers for hole-making operations
 - Maintain precise alignment with the headstock
 
 ### Operating Process
+
 1. Loosen the tailstock lock
 2. Slide to appropriate position
 3. Tighten the lock
@@ -58,3 +64,4 @@ Positioned at the right end of the lathe, it provides support for the workpiece 
 - Check alignment with headstock
 - Inspect lock mechanism for wear
 - Ensure smooth handwheel operation
+

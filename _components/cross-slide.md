@@ -6,10 +6,14 @@ animation: /assets/models/components/CROSS SLIDE.glb
 image_caption: "Cross slide assembly with handwheel"
 function: "Controls the depth of cut by moving the tool perpendicular to the bed"
 related_operations:
-  - Turning
-  - Facing
-  - Boring
-  - All cutting operations
+  - title: Turning
+    url: /operations/turning/
+  - title: Facing
+    url: /operations/facing/
+  - title: Boring
+    url: /operations/boring/
+  - title: All cutting operations
+    url: /pages/operations.html
 ---
 
 ## Overview
@@ -41,12 +45,14 @@ Mounted on top of the carriage, it moves perpendicular to the bed axis.
 ## Function Details
 
 ### Primary Functions
+
 - Control depth of cut
 - Position tool precisely
 - Enable fine adjustments
 - Maintain consistent feed rates
 
 ### Operation
+
 1. Loosen lock if engaged
 2. Rotate handwheel to desired position
 3. Read graduated dial for depth
@@ -54,6 +60,7 @@ Mounted on top of the carriage, it moves perpendicular to the bed axis.
 5. Feed tool using handwheel
 
 ### Measurement
+
 - Graduated dial usually shows 0.001" or 0.05mm per division
 - Can measure both advance and depth
 - Helps maintain consistent cuts
@@ -71,3 +78,4 @@ Mounted on top of the carriage, it moves perpendicular to the bed axis.
 - Verify smooth movement
 - Check for worn threads or bearings
 - Ensure dial accuracy
+

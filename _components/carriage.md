@@ -6,10 +6,14 @@ animation: /assets/models/components/CARRIAGE.glb
 image_caption: "Carriage assembly with tool post and cross slide"
 function: "Moves along the bed carrying the cutting tool and controlling its position"
 related_operations:
-  - Turning
-  - Facing
-  - Grooving
-  - Threading
+  - title: Turning
+    url: /operations/turning/
+  - title: Facing
+    url: /operations/facing/
+  - title: Grooving
+    url: /operations/grooving/
+  - title: Threading
+    url: /operations/threading/
 ---
 
 ## Overview
@@ -40,12 +44,14 @@ Positioned on the bed between the headstock and tailstock, it moves longitudinal
 ## Function Details
 
 ### Primary Functions
+
 - Carry and position the cutting tool
 - Provide longitudinal movement (along the bed)
 - Provide cross-feed movement (perpendicular to bed)
 - Allow precise tool placement
 
 ### Movement Types
+
 - **Longitudinal Feed**: Movement along the bed axis
 - **Cross Feed**: Movement perpendicular to the bed
 - **Manual Control**: Via handwheels
@@ -54,6 +60,7 @@ Positioned on the bed between the headstock and tailstock, it moves longitudinal
 ## Components
 
 The carriage assembly includes:
+
 - Main carriage body
 - Cross slide
 - Tool post
@@ -66,3 +73,4 @@ The carriage assembly includes:
 - Check for smooth movement
 - Ensure handwheels turn smoothly
 - Verify precise positioning
+

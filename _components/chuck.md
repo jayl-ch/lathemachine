@@ -6,10 +6,14 @@ animation: /assets/models/components/CHUCK.glb
 image_caption: "3-jaw universal chuck mounted on spindle"
 function: "Grips and holds the workpiece securely for rotation and machining"
 related_operations:
-  - Turning
-  - Facing
-  - Boring
-  - Parting
+  - title: Turning
+    url: /operations/turning/
+  - title: Facing
+    url: /operations/facing/
+  - title: Boring
+    url: /operations/boring/
+  - title: Parting
+    url: /operations/parting/
 ---
 
 ## Overview
@@ -43,22 +47,26 @@ Attached directly to the front face of the spindle via taper or threaded connect
 ### Types of Chucks
 
 **3-Jaw Universal Chuck**
+
 - Three jaws move together
 - Self-centering capability
 - Ideal for round and hexagonal workpieces
 - Fast workpiece loading
 
 **4-Jaw Independent Chuck**
+
 - Four jaws adjust separately
 - Manual centering required
 - Holds irregular shapes
 - Greater gripping force available
 
 **Combination Chuck**
+
 - Both self-centering and independent capability
 - Versatile for various workpiece shapes
 
 ### Operation
+
 1. Open jaws using chuck key
 2. Insert workpiece
 3. Close jaws evenly
@@ -72,3 +80,4 @@ Attached directly to the front face of the spindle via taper or threaded connect
 - Check for worn jaws
 - Verify gripping security
 - Inspect keyways for damage
+

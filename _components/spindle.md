@@ -6,7 +6,8 @@ animation: /assets/models/components/SPINDLE.glb
 image_caption: "Spindle assembly showing taper and chuck mounting"
 function: "Holds and rotates the workpiece or chuck at controlled speeds"
 related_operations:
-  - All lathe operations
+  - title: All lathe operations
+    url: /pages/operations.html
 ---
 
 ## Overview
@@ -38,12 +39,14 @@ Located inside the headstock, it is the rotating core of the lathe.
 ## Function Details
 
 ### Primary Functions
+
 - Rotate the workpiece or chuck
 - Transmit power from motor via gears
 - Maintain precise concentricity
 - Support radial and axial loads
 
 ### Specifications
+
 - Typically tapered (Morse taper)
 - Rotates on precision ball or roller bearings
 - Speed range varies by machine (30-3000 RPM typical)
@@ -56,3 +59,4 @@ Located inside the headstock, it is the rotating core of the lathe.
 - Inspect taper bore for damage
 - Verify smooth rotation with no runout
 - Check alignment periodically
+
