@@ -105,6 +105,6 @@
   /*   width: fit-content; */
   /* } */
   .operation-nav {
-    margin-block-start: 0;
+    margin-block-start: 0.4rem;
   }
 }
